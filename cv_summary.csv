@@ -1,0 +1,4 @@
+,MAE,RMSE,MAPE,WAPE,R2,MAE_clean,MAPE_clean,bias_clean
+Naive $/mile by equipment,219.3374,662.5717,10.5348,9.1099,0.8101,169.1071,8.3672,0.0397
+"Plain LightGBM (L1, log target)",123.9696,633.6197,5.147,5.1483,0.8265,72.6422,2.8619,0.0074
+Hybrid trend + LightGBM residual,110.1597,627.7295,4.6584,4.5823,0.8296,58.6879,2.3356,-0.008
